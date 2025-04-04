@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const pollService = require('..\services\pollService.js');
+const pollService = require('../services/poll-Service');
 
 // 1. Create a new poll
 router.post('/create', async (req, res) => {
